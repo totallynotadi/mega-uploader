@@ -23,7 +23,7 @@ parser.add_argument('-p', '--paste',
 args = parser.parse_args()
 
 mega = Mega()
-global MEGA
+# global MEGA
 MEGA = mega.login(email="g.aditya2048@gmail.com", password="wr3ckSh1p")
 
 def mega_upload_file(file_path, dest_filename=None):
